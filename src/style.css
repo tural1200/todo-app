@@ -1,0 +1,62 @@
+#root .App .container {
+  margin-top: 5rem;
+  max-width: 30rem;
+}
+
+#root .App .container form {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#root .App .container form input {
+  width: 80%;
+}
+
+#root .App .container form button {
+  border: none;
+  outline: none;
+  background: none;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+
+#root .App .container ul {
+  list-style: none;
+  padding: 0;
+}
+
+#root .App .container ul li {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+#root .App .container ul .not-complated {
+  -webkit-text-decoration-line: none;
+          text-decoration-line: none;
+}
+
+#root .App .container ul .complated {
+  -webkit-text-decoration-line: line-through;
+          text-decoration-line: line-through;
+  -webkit-text-decoration-color: red;
+          text-decoration-color: red;
+}
+
+#root .App .container ul button {
+  margin: 5px;
+  margin-right: 0;
+  border: none;
+  outline: none;
+  background: none;
+  border: 1px solid black;
+  border-radius: 4px;
+}
+/*# sourceMappingURL=style.css.map */

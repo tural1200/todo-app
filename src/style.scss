@@ -1,0 +1,52 @@
+#root {
+    .App {
+        .container {
+            margin-top: 5rem;
+            max-width: 30rem;
+
+            form {
+                display: flex;
+                justify-content: space-between;
+                input {
+                    width: 80%;
+                }
+                button {
+                    border: none;
+                    outline: none;
+                    background: none;
+                    border: 1px solid black;
+                    border-radius: 4px;
+                }
+            }
+
+            ul {
+                list-style: none;
+                padding: 0;
+
+                li {
+                    display: flex;
+                    justify-content: space-between;
+                }
+
+                .not-complated {
+                    text-decoration-line: none;
+                }
+
+                .complated {
+                    text-decoration-line: line-through;
+                    text-decoration-color: red;
+                }
+
+                button {
+                    margin: 5px;
+                    margin-right: 0;
+                    border: none;
+                    outline: none;
+                    background: none;
+                    border: 1px solid black;
+                    border-radius: 4px;
+                }
+            }
+        }
+    }
+}
